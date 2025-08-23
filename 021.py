@@ -1,8 +1,8 @@
-import os as sytm
-import random as sh
-a = int(input('یک عدد از 1تا 10 بگو'))
-x = sh.randint(1,10)
-if x==a:
-    print('شما برنده شدید !!!!!!!!!😁🤩')
+import random as shans
+x = shans.randint(1,6)
+y = shans.randint(1,6)
+a = x+y 
+if a ==7:
+    print('شما بردی!!!!!🤩')
 else:
-    sytm.remove("")
+    print('شما باختی!!!😒')
