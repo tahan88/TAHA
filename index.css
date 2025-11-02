@@ -1,0 +1,109 @@
+ body{
+           background: #EEAECA;
+background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+        }
+        header{
+            background-color: rgb(197, 12, 226,0.5);
+            border-radius: 50px;
+            text-align: center;
+            width: 80%;
+            position: relative;
+            top: -120px;
+            left: 74px;
+            
+        }
+        .iun{
+            position: relative;
+            top: -100px;
+            left: 822px;
+            
+        }
+        
+         /* @keyframes mmd {
+          0%{top: 45px; }
+          50%{top: -40px;}
+          100%{top: 45px;}
+        } */
+        .motb{
+          position: relative;
+          top: 200px;
+          left: 96px;
+          width:500px ;
+          height: 421px;
+
+        }
+        @keyframes modil {
+          0%{top:60px ;}
+          50%{top:80px ;}
+          100%{top: 60px;}
+        }
+        .irt{
+          position: relative;
+          top: 211px;
+          left: -7px;
+          animation: box 2s infinite;
+          width: 4%;
+          height: 3%;
+        }
+        .tup{
+          position: relative;
+          top: -148px;
+          left: -319px;
+          animation: modil 3s infinite;
+          width: 200px;
+          height: 140px;
+        }
+        @keyframes box {
+          0%{top: 101px;}
+          50%{top: 80px;}
+          100%{top: 100px;}
+        }
+        .tut{
+          position: relative;
+          left: 952px;
+          top: -90px;
+        }
+        .tuo{
+          position: relative;
+          top: -16px;
+          left: -865px;
+          animation: box2 2s infinite;
+          margin-top: 308px;
+        }
+        @keyframes box2 {
+          0%{top: 100px;}
+          50%{top: 60px;}
+          100%{top: 100px;}
+        }
+        .sms{
+          position: relative;
+          top: 385px;
+          left: -723px;
+        }
+        @keyframes number{
+            form{background-color: white;}
+            to{background-color:#ff78ff}
+        }
+        .num1{
+            position: relative;
+            left:1198px ;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px;
+        }
+        .num1:hover{
+            animation:number 5s infinite
+        }
+       .num2{
+        position: relative;
+        left: 850px;
+        padding: 10px;
+        border-radius:5px ;
+        border: 1px ;
+       }
+       .num2:hover{
+         animation:number 5s infinite
+       }
+        
+       
