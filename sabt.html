@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ورود و ثبت‌نام | فرش آرتیمیس</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./sabt.css">
+  <script src="./sabt.js" defer></script>
+</head>
+<body>
+  <div class="auth-shell">
+    <section class="brand-panel">
+      <span class="brand-mark">A</span>
+      <h1>فرش آرتیمیس</h1>
+      <p>ورود به حساب کاربری برای پیگیری سفارش‌ها، مشاهده وضعیت ساخت فرش سفارشی و دریافت پیشنهادهای اختصاصی.</p>
+      <ul>
+        <li>دسترسی به سوابق خرید</li>
+        <li>ثبت سریع سفارش اختصاصی</li>
+        <li>تخفیف‌های باشگاه مشتریان</li>
+      </ul>
+    </section>
+
+    <div class="container" id="container">
+      <div class="form-container sign-up-container">
+        <form>
+          <h2>ساخت حساب جدید</h2>
+          <p class="hint">عضو باشگاه مشتریان شوید و کد تخفیف ماهانه بگیرید.</p>
+          <input type="text" placeholder="نام و نام خانوادگی">
+          <input type="email" placeholder="ایمیل">
+          <input type="tel" placeholder="شماره موبایل">
+          <input type="password" placeholder="گذرواژه">
+          <button type="button">ثبت‌نام</button>
+        </form>
+      </div>
+
+      <div class="form-container sign-in-container">
+        <form>
+          <h2>ورود به حساب</h2>
+          <p class="hint">با ایمیل یا شماره موبایل وارد شوید.</p>
+          <input type="email" placeholder="ایمیل">
+          <input type="password" placeholder="گذرواژه">
+          <a href="#">بازیابی گذرواژه</a>
+          <button type="button">ورود</button>
+        </form>
+      </div>
+
+      <div class="overlay-container">
+        <div class="overlay">
+          <div class="overlay-panel overlay-left">
+            <h3>از قبل عضو هستید؟</h3>
+            <p>برای دسترسی سریع به وضعیت سفارش‌ها وارد شوید.</p>
+            <button class="ghost" id="signIn">ورود</button>
+          </div>
+          <div class="overlay-panel overlay-right">
+            <h3>تازه به آرتیمیس پیوستید؟</h3>
+            <p>در کمتر از یک دقیقه حساب بسازید و سفارش اختصاصی ثبت کنید.</p>
+            <button class="ghost" id="signUp">ثبت‌نام</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
