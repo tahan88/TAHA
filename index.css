@@ -331,7 +331,9 @@ main {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 1.5rem;
 }
-
+button{
+  font-family: yekan;
+}
 .site-footer a {
   color: #f7c59f;
   text-decoration: none;
